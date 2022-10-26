@@ -32,7 +32,7 @@ main {
     height: 100vh;
 }
 
-section {
+section#login {
     background-color: white;
     width: 250px;
     height: 515px;
@@ -44,6 +44,9 @@ section {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 
@@ -52,7 +55,7 @@ div#imagem {
     background-color: var(--cor2);
     background-image: url('../imagens/pexels.jpg');
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: left bottom;
     background-size: cover;
     height: 200px;
 }
